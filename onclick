@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<button onclick="myMessage1()">click me 1</button>
+<button onclick="myMessage2()">click me 2</button>
+
+<p onclick="myMessage3()">demo</p>
+
+
+<script>
+  function myMessage1(){
+     alert("hello everyone");
+  }
+
+  function myMessage2(){
+     alert("i am a property");
+  }
+  function myMessage3(){
+    alert("i am a para");
+  }
+
+
+</script>
+   
+</body>
+</html>
+
+   
+</script>
+   
+</body>
+</html>
