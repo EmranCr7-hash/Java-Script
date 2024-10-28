@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <p id="paraId">this is a paragraph</p>
+  <button onclick="addStyle()">add style</button>
+  <button onclick="removeStyle()">remove style</button>
+
+
+
+
+<script>
+  
+function addStyle(){
+ var myVar = document.querySelector("#paraId");
+ myVar.style.color ="red";
+ myVar.style.fontSize = "3rem";
+Var.style.fontWeight = "bold";
+Var.style.fontStyle = "italic";
+//eto na likhe: myVar.classList.add ("") braket e css er class er nam debo
+ }
+
+
+
+
+function removeStyle(){
+ var myVar = document.querySelector("#paraId");
+ myVar.classList.remove(" ")//braket e css er class er nam debo
+}
+ 
+</script>
+   
+</body>
+</html>
+
+   
+</script>
+   
+</body>
+</html>
