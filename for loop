@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+    //1+2+3+4+5=
+
+   /* var sum = 0;
+    for(var x=1; x<=5; x=x+1){
+        sum=sum + x;
+
+}
+document.write(sum);*/
+
+
+//initialy sum = 0, x=1, jeta sum
+//0 er sathe jog hbe. then x=2 jeta
+// sum 1 er sathe jog hbe. ebhabe cholbe.
+
+var m=parseInt(prompt("enter the starting number :"));
+var n=parseInt(prompt("enter the last number:"));
+
+
+var sum = 0;
+    for(var x=m; x<=n; x=x+1){
+        sum=sum + x;
+
+}
+document.write(sum);
+
+
+
+</script>
+   
+</body>
+</html>
+
+   
+</script>
+   
+</body>
+</html>
