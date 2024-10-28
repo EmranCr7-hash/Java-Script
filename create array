@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+//   var names = ["anisul","lima","shipa","rinku","tikku"];
+  
+//     names.push("sokina"); //ekhane sokina ta pore push kora hoyeche..
+//    document.write(names);
+
+
+
+//country nam jukto korbo
+
+var country1= ["bangladesh","india"];
+var country2=["pakistan","nepal"];
+
+var country= country1.concat(country2);
+document.write(country);
+
+
+</script>
+   
+</body>
+</html>
+
+   
+</script>
+   
+</body>
+</html>
