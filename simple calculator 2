@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+  //code1 start  // var num1 = 20;
+    // var num2 = 10;
+
+    // var sum,sub;
+    // sum = num1 + num2;
+    // document.write("SUM = " + sum + "</br>");
+
+    // sub = num1 + num2;
+    // document.write("SUB = " + sub);
+   // uporer code ta nije value nicchi, kintu amra chai user er kach theke value nite. jeta better.
+
+//code1 end
+
+//code2 start
+   var num1 = prompt("enter first number");
+    var num2 = prompt("Enter second number");
+
+    //prmpt e jokhn value debe seta string hye jabe
+    //tai setake age integer e convert korte hbe.
+  num1 = parseInt(num1,10);  
+  num2 = parseInt(num2,10); 
+    //10 ta holo dosomik nu m er base. 
+
+     var sum,sub;
+     sum = num1 + num2;
+
+       document.write("SUM = " + sum + "</br>");
+
+     sub = num1 - num2;
+     document.write("SUB = " + sub);
+
+     
+</script>
+   
+</body>
+</html>
